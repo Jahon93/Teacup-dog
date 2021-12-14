@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: 250px;
+}
+.img-container{
+    text-align: center;
+    height: 3rem;
+}
+.img-icon{
+    height: 3rem;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 21px;
+    line-height: 1.6;
+    background: #fff;
+    color: rgb(73, 71, 71);
+}
+
+h1, h2, h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+    text-align: center;
+}
+
+h1 {
+    font-size: 120px;
+    line-height: .8;
+    color:rgb(63, 62, 62);
+}
+
+h2 {
+    font-size: 48px;
+    line-height: 1;
+}
+
+h2 span {
+    display: block;
+}
+.first-heading{
+    margin-top: 1.5rem;
+    line-height: 120px;
+}
+a {
+    color: #3669C9;
+}
+
+a:hover,
+a:focus {
+    color: #fff;
+}
+
+.text-accent {
+    color: #3669C9;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1100px;
+    padding: 0 2em;
+   
+}
+
+
+.split {
+    display: flex;
+}
+
+.col {
+    margin: 0 1em;
+}
+
+.btn {
+    display: inline-block;
+    padding: .5em 1.25em;
+    color: inherit;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: #3669C9;
+}
+
+.btn:hover,
+.btn:focus {
+    background: #3339C9;
+}
+
+.hero {
+    text-align: left;
+    padding: 14rem 0 25rem;
+    background-image: url(img/moon.jpg);
+    background-size: cover;
+    background-position: bottom right;
+}
+
+header{
+    padding-top: 5rem;
+}
+
+section {
+    padding: 10rem 0;
+}
+
+
+.accent-bg .btn {
+    background-color: #fff;
+    color: #1A1E26;
+}
+
+.accent-bg .btn:hover {
+    background: #1A1E26;
+    color: #fff;
+}
+
+.extra-space {
+    margin-top: 10rem;
+}
+footer{
+    background-color: lawngreen;
+}
